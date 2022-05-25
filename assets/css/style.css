@@ -1,0 +1,35 @@
+* {
+    background-color: bisque;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.block {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.word-box {
+    border: 1px solid;
+    margin: 2px 2px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+#instructions {
+    font-size: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#start {
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #60a36e;
+}
