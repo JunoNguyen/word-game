@@ -13,12 +13,28 @@
     flex-wrap: wrap;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input {
+    margin: 5px 50px;
+    font-size: 50px;
+}
+
 .word-box {
     border: 1px solid;
     margin: 2px 2px;
     display: flex;
     justify-content: center;
     width: 18%;
+    background-color:grey;
+}
+
+.word-box p{
+    background-color: grey;
 }
 
 #instructions {
